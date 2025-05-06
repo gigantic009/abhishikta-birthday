@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday Abhishikta</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+      color: #fff;
+      font-family: 'Courier New', monospace;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+    .container {
+      max-width: 800px;
+      padding: 20px;
+      text-align: center;
+    }
+    .typing {
+      display: inline-block;
+      border-right: 2px solid white;
+      white-space: nowrap;
+      overflow: hidden;
+      animation: typing 3s steps(40, end), blink 0.75s step-end infinite;
+      font-size: 1.4rem;
+    }
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+    @keyframes blink {
+      50% { border-color: transparent; }
+    }
+    .line {
+      margin: 20px 0;
+      font-size: 1.2rem;
+      opacity: 0;
+      animation: fadeIn 1s forwards;
+    }
+    .line:nth-child(2) { animation-delay: 3.5s; }
+    .line:nth-child(3) { animation-delay: 5s; }
+    .line:nth-child(4) { animation-delay: 6.5s; }
+    .line:nth-child(5) { animation-delay: 8s; }
+    .line:nth-child(6) { animation-delay: 9.5s; }
+    .line:nth-child(7) { animation-delay: 11s; }
+    .line:nth-child(8) { animation-delay: 12.5s; }
+    .line:nth-child(9) { animation-delay: 14s; }
+    .line:nth-child(10) { animation-delay: 15.5s; }
+    .line:nth-child(11) { animation-delay: 17s; }
+    .line:nth-child(12) { animation-delay: 18.5s; }
+
+    @keyframes fadeIn {
+      to { opacity: 1; }
+    }
+    .signature {
+      margin-top: 40px;
+      font-weight: bold;
+      font-size: 1.1rem;
+      opacity: 0;
+      animation: fadeIn 1s forwards;
+      animation-delay: 20s;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="typing">POV: It's her birthday...</div>
+    <div class="line">but you're not there.</div>
+    <div class="line">Not to see her smile,</div>
+    <div class="line">Not to hear her laugh,</div>
+    <div class="line">Not to say "Happy Birthday" face-to-face.</div>
+    <div class="line">So you built this instead.</div>
+    <div class="line">A quiet corner of the internet,</div>
+    <div class="line">just for her.</div>
+    <div class="line">Because some feelings don’t need grand gestures.</div>
+    <div class="line">Just a place. Just a name. Just a heart.</div>
+    <div class="line">Happy Birthday, Abhishikta 🎂</div>
+    <div class="signature">From Antarip.</div>
+  </div>
+</body>
+</html>
